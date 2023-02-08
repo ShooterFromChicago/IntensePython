@@ -1,0 +1,2 @@
+a, b = map(int, input("Введите a и b: ").split())
+print((a % b)*(b % a) + 1)
