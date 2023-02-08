@@ -1,0 +1,2 @@
+x = int(input("Введите число: "))
+print(str(x % 10) + str(x // 10))
