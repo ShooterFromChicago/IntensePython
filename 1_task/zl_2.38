@@ -1,0 +1,6 @@
+a ,b = map (int, input ("Введите a и b: ").split())
+print("{}+{}={}".format(a, b, a + b))
+print("{}-{}={}".format(a, b, a - b))
+print("{}*{}={}".format(a, b, a * b))
+print("{}/{}={}".format(a, b, a / b))
+print("({}+{})/2={}".format(a, b, (a + b) / 2))
