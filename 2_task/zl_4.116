@@ -1,0 +1,6 @@
+x = int(input("Введите x: "))
+if x < -1:
+    y = -1
+else:
+    y = abs(x)
+print(y)
